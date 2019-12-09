@@ -8,13 +8,13 @@ class Dog
     @all << self
   end
   
-  def self.clean_all
+  def self.clear_all
     @@all.clear
   end
   
   def self.all
-    @all.each do |j|
-      puts j.name
+    @all.each do |dog|
+      puts dog.name
     end
   end
 end
